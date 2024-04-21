@@ -72,10 +72,10 @@ This document contains my responses to my EDIT AI/ML Internship application's te
 **Question:** Create a histogram of gene expression values and discuss its distribution.
 - **Python Code:**
     ```python
-   import matplotlib.pyplot as plt
+    import matplotlib.pyplot as plt
 
-# Data for histogram plot
-histogram_data = [19.47, 13.76, 20.83, 28.71, 12.89, 12.89, 29.21, 21.91, 10.77, 19.88, 10.83, 10.81, 17.18, -2.22,
+    # Data for histogram plot
+    histogram_data = [19.47, 13.76, 20.83, 28.71, 12.89, 12.89, 29.21, 21.91, 10.77, 19.88, 10.83, 10.81, 17.18, -2.22,
                   -0.52, 9.94, 5.88, 17.83, 6.83, 2.29, 28.19, 12.97, 15.61, 2.18, 10.1, 16.0, 4.64, 18.38, 9.59, 12.37,
                   9.58, 31.67, 14.88, 5.48, 22.4, 4.01, 16.88, -2.64, 3.05, 16.77, 21.65, 16.54, 13.96, 12.29, 1.69, 8.52,
                   10.85, 24.51, 18.09, -0.87, 17.92, 11.53, 8.91, 20.51, 24.28, 23.38, 7.45, 12.22, 17.98, 23.78, 10.69,
@@ -83,14 +83,14 @@ histogram_data = [19.47, 13.76, 20.83, 28.71, 12.89, 12.89, 29.21, 21.91, 10.77,
                   15.78, 12.31, 15.83, -2.89, 13.02, 18.21, 28.3, 10.34, 7.72, 10.48, 23.24, 17.96, 10.23, 19.62, 15.87,
                   23.72, 8.68, 12.05, 11.47, 1.83, 17.67, 17.35, 15.05, 12.89]
 
-# Creating the histogram
-plt.figure(figsize=(10, 6))
-plt.hist(histogram_data, bins=20, color='blue', alpha=0.7)
-plt.title('Histogram of Gene Expression Values')
-plt.xlabel('Expression Value')
-plt.ylabel('Frequency')
-plt.grid(True)
-plt.show()
+    # Creating the histogram
+    plt.figure(figsize=(10, 6))
+    plt.hist(histogram_data, bins=20, color='blue', alpha=0.7)
+    plt.title('Histogram of Gene Expression Values')
+    plt.xlabel('Expression Value')
+    plt.ylabel('Frequency')
+    plt.grid(True)
+    plt.show()
     ```
 
 ## Conclusion

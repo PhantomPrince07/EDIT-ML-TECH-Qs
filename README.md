@@ -1,10 +1,10 @@
 # EDIT-ML-TECH-Qs
-EDIT ML TECHNICAL QUESTIONS FOR SKILLS DEVELOPMENT TRACK
+EDIT AI/ML TECHNICAL QUESTIONS FOR SKILLS DEVELOPMENT TRACK
 
 # My Technical Questions Responses for my EDIT AI/ML Application
 
 ## Overview
-This repository contains my responses to the technical questions provided as part of the EDIT ML High School Summer Internship Program application. The responses cover various aspects of programming, statistical analysis, and problem-solving using Python and R.
+This repository contains my responses to the technical questions provided as part of my EDIT AI/ML Internship application. The responses cover various aspects of programming, statistical analysis, and problem-solving using Python and R.
 
 ## Contents
 - `src/` contains all source code files.

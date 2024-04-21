@@ -3,7 +3,7 @@
 ## Overview
 This document contains my responses to my EDIT AI/ML Internship application's technical questions. Below are my solutions to the provided problems, using Python and R.
 
-## Questions and Responses
+## 4 Main Programming/Statistics Questions Responses
 
 ### 1. Functional Programming in Python and R
 **Question:** Write functions in Python and R to calculate the mean, standard deviation, and count of elements in a list/vector.
@@ -134,5 +134,19 @@ This class, `GeneExpressionAnalyzer`, encapsulates the expressions and the thres
     plt.show()
     ```
 
+## My Brief Responses to 4 Bonus Technical Questions based on my hands-on experiences in my Inspirit AI and Veritas AI courses
+
+a. Machine Learning
+Machine learning is described as a subset of artificial intelligence that enables systems to learn from data and make decisions with minimal human intervention. The distinction is made between supervised learning, where models are trained on labeled data (e.g., spam detection in emails), and unsupervised learning, which involves learning from unlabeled data to identify patterns or structures (e.g., customer segmentation in marketing). Practical experience through coursework with Inspirit AI has enhanced understanding of real-world applications of these techniques.
+
+b. Image Analysis
+In automating the analysis of urine cells images, a computer program could be developed to emulate a pathologist's analysis using image processing techniques. This would involve segmenting the image into nuclei and cytoplasm and calculating the nucleus-to-cytoplasm ratio to assess potential malignancy. Foundational skills in image processing and analysis necessary for such biomedical imaging problems have been developed through training with Veritas AI.
+
+c. Deep Learning/TensorFlow for Image Classification
+Experiences with TensorFlow's playground, an interactive tool, have helped understand how neural networks can classify data based on visual patterns. Experiments with various network configurations to effectively classify shapes have demonstrated the importance of network architecture and parameter tuning. This hands-on experience has allowed exploration of the complexities of neural networks and their capabilities in pattern recognition.
+
+d. Natural Language Processing
+Using a neural network-based autocomplete tool has illustrated how neural networks can predict text sequences, significantly impacting how language and text are represented and processed by computer programs. The potential of tools like GPT-2 for applications in generating text and understanding language patterns has been highlighted. Coursework has provided practical context for these technologies, enhancing comprehension of NLP principles and their applications.
+
 ## Conclusion
-This README includes my solutions to the technical questions for my EDIT AI/ML application. Each piece of code is accompanied by a brief description of what it does, demonstrating my approach to solving these questions.
+This README includes my solutions/responses to the 4 main and 4 bonus technical questions for my EDIT AI/ML application. Each piece of code is accompanied by a brief description of what it does, demonstrating my approach to solving these questions.

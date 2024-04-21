@@ -88,7 +88,7 @@ class Dog:
 In this example, `Dog` class has a class attribute `species`, two instance attributes (`name` and `age`), and two methods `description()` and `speak()`.
 
 Class for Proportion Calculation Challenge:
-Now, let's turn the calculation of the proportion of genes that are highly expressed into a class:
+Let's turn the calculation of the proportion of genes that are highly expressed into a class:
 ```python
 class GeneExpressionAnalyzer:
     def __init__(self, expressions, threshold=4):

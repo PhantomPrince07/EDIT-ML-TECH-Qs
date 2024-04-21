@@ -3,7 +3,7 @@
 ## Overview
 This document contains my responses to my EDIT AI/ML Internship application's technical questions. Below are my solutions to the provided problems, using Python and R.
 
-## 4 Main Programming/Statistics Questions Responses
+## 4 Main Programming/Statistics Questions' Responses
 
 ### 1. Functional Programming in Python and R
 **Question:** Write functions in Python and R to calculate the mean, standard deviation, and count of elements in a list/vector.

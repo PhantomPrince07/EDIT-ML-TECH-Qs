@@ -1,27 +1,31 @@
-# EDIT-ML-TECH-Qs
-## EDIT AI/ML Technical Questions for Skills Development Track
+EDIT-ML-TECH-Qs
+EDIT AI/ML TECHNICAL QUESTIONS FOR SKILLS DEVELOPMENT TRACK
 
-### Overview
-This repository contains my responses to the technical questions provided as part of my application for the EDIT AI/ML Internship. The responses encompass various aspects of programming, statistical analysis, and problem-solving using Python and R.
+My Technical Questions Responses for my EDIT AI/ML Application
 
-### Questions and Responses
+Overview
+This repository contains my responses to the technical questions provided as part of my EDIT AI/ML Internship application. The responses cover various aspects of programming, statistical analysis, and problem-solving using Python and R.
+
+Questions and Responses
 
 1. Functional Programming in Python and R
 Question: Write functions in Python and R to calculate the mean, standard deviation, and count of elements in a list/vector.
 
-- Python Code:
-  def compute_stats(data):
-      mean_val = sum(data) / len(data)
-      variance = sum((x - mean_val) ** 2 for x in data) / len(data)
-      std_dev = variance ** 0.5
-      return mean_val, std_dev, len(data)
+Python Code:
 
-  # Example data
-  data = [5.99, 4.72, 6.29, 8.04, 4.53, 4.53, 8.15, 6.53, 4.06, 6.08]
-  results = compute_stats(data)
-  print("Mean:", results[0], "Standard Deviation:", results[1], "Count:", results[2])
+def compute_stats(data):
+    mean_val = sum(data) / len(data)
+    variance = sum((x - mean_val) ** 2 for x in data) / len(data)
+    std_dev = variance ** 0.5
+    return mean_val, std_dev, len(data)
+
+# Example data
+data = [5.99, 4.72, 6.29, 8.04, 4.53, 4.53, 8.15, 6.53, 4.06, 6.08]
+results = compute_stats(data)
+print("Mean:", results[0], "Standard Deviation:", results[1], "Count:", results[2])
 
 R Code:
+
 compute_stats <- function(data) {
   mean_val <- mean(data)
   std_dev <- sd(data)
@@ -62,12 +66,12 @@ expressions = [5.99, 4.72, 6.29, 8.04, 4.53, 4.53, 8.15, 6.53, 4.06, 6.08]
 analyzer = GeneExpressionAnalyzer(expressions)
 proportion = analyzer.calculate_proportion_above_threshold()
 print(f"Proportion above threshold: {proportion:.2f}")
-
 4. Data Plotting in Python
 Question: Create a histogram of gene expression values and discuss its distribution.
 
 Python Code:
 import matplotlib.pyplot as plt
+
 gene_expressions = [19.47, 13.76, 20.83, 28.71, 12.89, 12.89, 29.21, 21.91, 10.77, 19.88]
 plt.hist(gene_expressions, bins=10, color='blue', alpha=0.7)
 plt.title('Histogram of Gene Expression Values')

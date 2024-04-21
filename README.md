@@ -1,7 +1,7 @@
 # EDIT AI/ML TECHNICAL QUESTIONS FOR SKILLS DEVELOPMENT TRACK
 
 ## Overview
-This document contains responses to technical questions as part of my application to the EDIT ML High School Summer Internship Program. Below are my solutions to the provided problems, using Python and R. My aim is to demonstrate not only my proficiency with these tools but also how they can be applied to solve complex problems effectively.
+This document contains my responses to my EDIT AI/ML Internship application's technical questions. Below are my solutions to the provided problems, using Python and R.
 
 ## Questions and Responses
 

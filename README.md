@@ -48,25 +48,66 @@ This document contains my responses to my EDIT AI/ML Internship application's te
     ```
 
 ### 3. Object-Oriented Programming in Python
-**Question:** Define a Python class and explain how it differs from a function.
-- **Python Code:**
-    ```python
-    class GeneExpressionAnalyzer:
-        def __init__(self, expressions, threshold=4):
-            self.expressions = expressions
-            this.threshold = threshold
+Question: Define a Python class and explain how it differs from a function.
+    
+What is a Python Class?
+A Python class is a blueprint for creating objects. Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods (defined by its class) for modifying its state.
 
-        def calculate_proportion_above_threshold(self):
-            count_above = sum(e > this.threshold for e in this.expressions)
-            total = len(this.expressions)
-            return count_above / total if total > 0 else 0
+How is this different from a function?
+A function is a block of code which only runs when it is called. Data can be passed into a function as arguments and can return data as a result. A class, conversely, is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods).
 
-    # Example usage
-    expressions = [5.99, 4.72, 6.29, 8.04, 4.53, 4.53, 8.15, 6.53, 4.06, 6.08]
-    analyzer = GeneExpressionAnalyzer(expressions)
-    proportion = analyzer.calculate_proportion_above_threshold()
-    print(f"Proportion above threshold: {proportion:.2f}")
-    ```
+Examples of Classes:
+1. `str` - A built-in Python class for representing string objects.
+2. `list` - A built-in Python class for representing lists.
+3. `dict` - A built-in Python class used to store data values in key:value pairs.
+
+What are attributes and methods and how do they differ?
+- **Attributes** are data stored inside a class or instance and represent the state or properties of the class or instance.
+- **Methods** are functions defined inside a class body. They are used to define the behaviors of an object.
+
+Example of a Class:
+Here’s a simple example of a Python class:
+```python
+class Dog:
+    # Class Attribute
+    species = 'mammal'
+
+    # Initializer / Instance Attributes
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    # instance method
+    def description(self):
+        return f"{self.name} is {self.age} years old"
+
+    # instance method
+    def speak(self, sound):
+        return f"{self.name} says {sound}"
+```
+In this example, `Dog` class has a class attribute `species`, two instance attributes (`name` and `age`), and two methods `description()` and `speak()`.
+
+Class for Proportion Calculation Challenge:
+Now, let's turn the calculation of the proportion of genes that are highly expressed into a class:
+```python
+class GeneExpressionAnalyzer:
+    def __init__(self, expressions, threshold=4):
+        self.expressions = expressions
+        self.threshold = threshold
+
+    def calculate_proportion_above_threshold(self):
+        count_above = sum(e > self.threshold for e in self.expressions)
+        total = len(self.expressions)
+        return count_above / total if total > 0 else 0
+
+# Usage
+expressions = [5.99, 4.72, 6.29, 8.04, 4.53, 4.53, 8.15, 6.53, 4.06, 6.08, ...]
+analyzer = GeneExpressionAnalyzer(expressions, threshold=4)
+proportion = analyzer.calculate_proportion_above_threshold()
+print(f"Proportion above threshold: {proportion:.2f}")
+```
+
+This class, `GeneExpressionAnalyzer`, encapsulates the expressions and the threshold as instance attributes and provides a method to calculate the proportion of expressions that exceed the threshold. This object-oriented approach is advantageous for maintaining state and extending functionality in a modular way.
 
 ### 4. Data Plotting in Python
 **Question:** Create a histogram of gene expression values and discuss its distribution.
